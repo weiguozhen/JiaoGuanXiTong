@@ -5,7 +5,7 @@ from .settings_common import *
 # django 容器（如 gunicorn, cherrypy） web服务地址
 WEB_SERVER_LISTEN_ADDR = ('0.0.0.0',8000)
 
-
+ALLOWED_HOSTS = ['*']
 
 DEBUG=True
 
