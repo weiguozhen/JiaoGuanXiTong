@@ -5,7 +5,7 @@ node('ubuntu'){
     }
     stage('部署'){
         //执行运行脚本 run.sh
-        sh 'cd restapi-teach && sh run.sh'
+        sh 'cd restapi-teach && sh ./run.sh'
     }
     stage('测试'){
         //test
