@@ -12,7 +12,7 @@ node('ubuntu'){
 	//node中不写参数表示在本地执行，linux上没有环境，在本地要保证有代码文件，将代码checkout下来
 	node(){
 		checkout scm
-		sh 'root -P . tc'
+		sh 'robot -P . tc'
 	}
     }
     stage('交付'){
