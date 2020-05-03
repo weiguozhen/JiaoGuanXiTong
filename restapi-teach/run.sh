@@ -1,4 +1,4 @@
 source /etc/profile
 #!/bin/bash
 
-cd backend && nohup python3 project/cherrypy_startup.py
+cd backend && nohup python3 project/cherrypy_startup.py &
