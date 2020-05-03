@@ -18,4 +18,4 @@ source /etc/profile
 
 ### END INIT INFO
 
-cd backend && nohup python3 project/cherrypy_startup.py &
+cd backend && nohup python3 project/cherrypy_startup.py
