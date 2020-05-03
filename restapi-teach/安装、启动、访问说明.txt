@@ -1,30 +1,27 @@
-ע��ֻ������windows����ϵͳ��
-Ĭ��ʹ�õ����ݿ��ǣ�SQLite3
+注：只能用于windows操作系统。
+默认使用的数据库是：SQLite3
 
-һ�����Ȱ�װpython������3.6.6 ���ϣ�
+一、请先安装python环境（3.6.6 以上）
 
-      ����Ƿ�װ��python�����ķ������£�
-      cmd ������ -->���룺python   �س�
-      �������python �İ汾�����ʾ�Ѿ���װ��python
-
-
-��������python��
-     ���С�install.bat���������Ҫ3-5���ӡ�����һ������һ�μ��ɡ�
+      检查是否安装了python环境的方法如下：
+      cmd 窗口中 -->输入：python   回车
+      如果出现python 的版本，则表示已经安装了python
 
 
-����������Ŀ
-      ˫����run.bat�� ����������Ŀ��
+二、下载python库
+     运行《install.bat》，大概需要3-5分钟。仅第一次运行一次即可。
 
 
-      �Ժ�ÿ��������Ŀ��ֻ��Ҫִ�е��������ɡ�
+三、启动项目
+      双击《run.bat》 即可启动项目。
 
 
-�ġ�����·��
-      http://localhost/mgr/login/login.html
-      �˺ź����룺auto/sdfsdfsdf
+      以后每次启动项目，只需要执行第三步即可。
 
 
 
-ע��ϵͳĬ�ϵ���SQLite3 ���ݿ⣬���Ҫ�л���mysql���ݿ⣬�뿴���л����ݿⷽ������Ŀ¼��
-ע��ϵͳĬ�Ϸ��ʽӿ��ǲ��õ�¼�ģ����Ҫ��Ϊ��Ҫ��¼��restapi-teach\backend\project �µģ�settings_common.py �ļ������һ�С�
-��ΪTrue  ��ע���Сд��
+
+
+注：系统默认的是SQLite3 数据库，如果要切换到mysql数据库，请看《切换数据库方法》的目录。
+注：系统默认访问接口是不用登录的，如果要改为需要登录，restapi-teach\backend\project 下的：settings_common.py 文件的最后一行。
+改为True  。注意大小写。
